@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Pipeline (synthetic demo)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "rateslab.pipeline",
+      "args": ["--source", "synthetic"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Pipeline (FRED data)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "rateslab.pipeline",
+      "args": ["--source", "fred"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Weekly note",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "rateslab.weekly_note",
+      "console": "integratedTerminal"
+    }
+  ]
+}
